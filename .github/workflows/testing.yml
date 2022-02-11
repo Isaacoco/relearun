@@ -30,5 +30,7 @@ jobs:
         run : composer -v
       - name : Renommer le fichier d'env
         run : mv _.env.exempl .env
-      - name : Installer Composer
+      - name : Installer le vendor
         run : composer install 
+     
+        
