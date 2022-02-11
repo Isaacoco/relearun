@@ -33,5 +33,7 @@ jobs:
         run : cp _.env.exempl .env
       - name : Installer le vendor
         run : composer install 
+      - name : Création BB
+        run : php bin/console doctrine:database:create
      
         
